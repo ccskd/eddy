@@ -3,7 +3,7 @@ const music = ["", "", "", "", "", ""];
 function push(k) {
     document.getElementById(`${k}`).className = "push";
     var sound = document.getElementById("sound");
-    sound.play;
+    sound.play();
 }
 
 function spin(k) {
