@@ -1,3 +1,5 @@
+const music = ["", "", "", "", "", ""];
+
 function push(k) {
     document.getElementById(`${k}`).className = "push";
 }
@@ -28,4 +30,10 @@ function changeImg(image) {
     document.getElementById("6").src = image;
     document.getElementById("7").src = image;
     document.getElementById("8").src = image;
+}
+
+function sing(k) {
+    document.getElementById(`${k}`)
+    sing = music[k-1];
+    sing.play();
 }
