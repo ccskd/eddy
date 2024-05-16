@@ -28,7 +28,7 @@ img:hover {
 }
 @keyframes push {
     0%{}
-    100%{transform: scaleY(0.34) translateY(100px);}
+    100%{transform: scaleY(0.34) translateY(170px);}
 }
 
 .spin {
